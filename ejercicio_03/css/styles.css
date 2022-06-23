@@ -1,0 +1,65 @@
+/* Importamos fuente de dafont.com */
+@font-face {
+    font-family: miFuente;
+    src: url(../fuente/coolvetica\ rg.otf);
+}
+
+/* Importamos fuente de fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+
+/* Estilo de fuente */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Damos margen-izq. */
+header {
+    margin-left: 1em;
+}
+/* Estilo de fuente */
+h1 {
+    font-family: miFuente;
+    font-size: 90px;
+    color: #0a2ff1;
+}
+
+#descripcion, p, h2 {
+    color: #04146c;
+}
+
+#descripcion {
+    font-weight: 300;
+}
+
+#descripcion span {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300 italic;
+}
+
+h2 {
+    font-weight: 900; 
+}
+
+.comentarios {
+    font-weight: 400;
+    color: black;
+}
+/* Aplicamos flex */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.container div {
+    width: 25%;
+    padding: 1em;
+    background-color: #eff2ff;
+}
+
+img {
+    width: 30%;
+}

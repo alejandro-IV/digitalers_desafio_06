@@ -1,0 +1,55 @@
+/* Importamos estilo de fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+    color: #0a2ff1;
+    font-weight: 700;
+    
+}
+
+p {
+    font-size: 32px;
+    color: #04146c;
+    font-weight: 300;
+}
+
+#diseño {
+    font-size: 16px;
+    color: #04146c;
+}
+
+#diseño strong {
+    font-weight: 400;
+}
+
+/* Aplicamos ancho en % a los contenedores */
+.flex-container #container-2 {
+    width: 30%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+/* Aplicamos margen-izq */
+#container-2 {
+    margin-left: 5%;
+}
+
+/* Aplicamos ancho en % */
+#img-2 {
+    width: 30%;
+}
+
+
+
+
+

@@ -1,0 +1,50 @@
+/* Importamos fuente de dafont.com */
+@font-face {
+    font-family: miFuente;
+    src: url(../fuentes/coolvetica/coolvetica\ rg.otf);
+    font-weight: bold;
+}
+
+/* Importamos fuente de googlefonts.com */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* Tomando todo el ancho del container */
+* {box-sizing: border-box;}
+
+/* Centrando texto */
+.container {
+    text-align: center;
+}
+
+/* Estilos */
+h1 {
+    font-family: miFuente;
+    color: #0a2ff1;
+    font-size: 100px;
+}
+
+/* Estilos */
+h2, button {
+    font-family: 'Roboto', sans-serif;
+    color: #04146c;
+    font-weight: 300;
+    font-size: 40px;
+    
+}
+/* Estilos */
+button {
+    font-weight: 400;
+    color: white;
+    background-color: #0a2ff1;
+    border: solid 3px #0a2ff1;
+    display: block;
+    margin: auto;
+    padding: 8px 45px;
+    margin-bottom: 20px;
+}
+
+/* Estilos */
+#paletas {
+    background-color: white;
+    color: #04146c;  
+}
